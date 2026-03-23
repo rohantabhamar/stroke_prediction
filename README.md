@@ -31,24 +31,20 @@ Gunicorn (for deployment)
 ├── app.py
 ├── requirements.txt
 ├── src/
-│ ├── logger.py
-│ └── custom_exception.py
-
+│   ├── logger.py
+│   └── custom_exception.py
 ├── templates/
-│ └── index.html
-
+│   └── index.html
 ├── static/
-│ └── style.css
-
+│   └── style.css
 ├── artifacts/
-│ ├── raw/
-│ │ └── data.csv
-│ ├── processed/
-│ │ ├── scaler.pkl
-│ │ └── encoders.pkl
-│ └── models/
-│ └── model.pkl
-
+│   ├── raw/
+│   │   └── data.csv
+│   ├── processed/
+│   │   ├── scaler.pkl
+│   │   └── encoders.pkl
+│   └── models/
+│       └── model.pkl
 └── README.md
 
 ⚙️ Installation & Setup
